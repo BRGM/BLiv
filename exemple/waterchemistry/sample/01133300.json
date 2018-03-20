@@ -6,7 +6,6 @@
         "https://opengeospatial.github.io/ELFIE/json-ld/gw.jsonld",
 		{
 		"oml": "http://def.seegrid.csiro.au/ontology/om/om-lite#",
-		"ops": "http://www.openphacts.org/units/",
 		"qudt": "http://www.qudt.org/qudt/owl/1.0.0/unit/index.html#"
 		}
     ],
@@ -23,7 +22,12 @@
 			"@type":"HY_WaterBody",
 			"name":"Rivière d'Hallue"
 		},
-    "isFeatureOfInterestOf":[
+    "sosa:hasSample": {
+		"@id": "https://raw.githubusercontent.com/BRGM/BLiv/master/exemple/waterchemistry/sample/ech0000001.json",
+		"@type": "Sample",
+		"name": ""
+	},
+	"isFeatureOfInterestOf":[
 			{
 					"@id": "https://github.com/BRGM/BLiv/exemple/observation/obs0000001", 
 					"@type": "Observation",
@@ -33,6 +37,7 @@
 					 },
 					"hasResult": [
 					{
+						"@id": "https://foo4.fr",
 						"@type": "oml:SimpleMeasure",
 						"oml:amount": "8",
 						"oml:uom": "qudt:Unitless"
@@ -40,9 +45,9 @@
 					],
 					"madeBySensor": "http://ressource.brgm-rec.fr/data/Sensor/should_put_serial_number_here",
 					"observedProperty": {
-						"@id": "http://id.eaufrance.fr/par/1340",
+						"@id": "http://id.eaufrance.fr/par/1302",
 						"@type": "skos:Concept",
-						"name": "Nitrates"
+						"name": "pH"
 					},
 					"resultTime": "2015-06-22T10:55:00.000Z",
 					"usedProcedure":  {

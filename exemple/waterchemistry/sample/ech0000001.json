@@ -17,7 +17,7 @@
 			"@type":"Sample",
 			"name":"L'HALLUE À DAOURS (80)"
 		},
-    "isFeatureOfInterestOf":[
+	"isFeatureOfInterestOf":[
 			{
 					"@id": "https://github.com/BRGM/BLiv/exemple/observation/obs0000002", 
 					"@type": "Observation",
@@ -27,6 +27,7 @@
 					 },
 					"hasResult": [
 					{
+						"@id": "https://foo5.fr",
 						"@type": "oml:SimpleMeasure",
 						"oml:amount": "2.8",
 						"oml:uom": "ops:MilligramPerDeciliter"
