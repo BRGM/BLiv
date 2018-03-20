@@ -9,11 +9,11 @@
 		"ops": "http://www.openphacts.org/units/"
 		}
     ],
-    "@id": "https://github.com/BRGM/BLiv/exemple/sample/ech0000001",
+    "@id": "https://raw.githubusercontent.com/BRGM/BLiv/master/exemple/waterchemistry/sample/ech0000001.json",
     "@type": "Sample",
     "name": "",
 	"isSampleOf": {
-			"@id":"https://github.com/BRGM/BLiv/exemple/sample/01133300",
+			"@id":"https://raw.githubusercontent.com/BRGM/BLiv/master/exemple/waterchemistry/sample/01133300.json",
 			"@type":"Sample",
 			"name":"L'HALLUE À DAOURS (80)"
 		},
@@ -22,7 +22,7 @@
 					"@id": "https://github.com/BRGM/BLiv/exemple/observation/obs0000002", 
 					"@type": "Observation",
 					"hasFeatureOfInterest": {
-						"@id":"https://github.com/BRGM/BLiv/exemple/sample/ech0000001",
+						"@id":"https://raw.githubusercontent.com/BRGM/BLiv/master/exemple/waterchemistry/sample/ech0000001.json",
 						"@type":"Sample"
 					 },
 					"hasResult": [

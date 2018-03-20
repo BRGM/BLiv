@@ -10,7 +10,7 @@
 		"qudt": "http://www.qudt.org/qudt/owl/1.0.0/unit/index.html#"
 		}
     ],
-    "@id": "https://github.com/BRGM/BLiv/exemple/sample/01133300",
+    "@id": "https://raw.githubusercontent.com/BRGM/BLiv/master/exemple/waterchemistry/sample/01133300.json",
     "@type": "Sample",
     "name": "L'HALLUE À DAOURS (80)",
 	"sameAs": "http://www.sandre.eaufrance.fr/geo/StationMesureEauxSurface/01133300",
@@ -28,7 +28,7 @@
 					"@id": "https://github.com/BRGM/BLiv/exemple/observation/obs0000001", 
 					"@type": "Observation",
 					"hasFeatureOfInterest": {
-						"@id":"https://github.com/BRGM/BLiv/exemple/sample/01133300",
+						"@id":"https://raw.githubusercontent.com/BRGM/BLiv/master/exemple/waterchemistry/sample/01133300.json",
 						"@type":"Sample"
 					 },
 					"hasResult": [
