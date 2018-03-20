@@ -51,9 +51,9 @@
 					},
 					"resultTime": "2015-06-22T10:55:00.000Z",
 					"usedProcedure":  {
-						"@id": "http://id.eaufrance.fr/met/751",
+						"@id": "http://id.eaufrance.fr/met/814",
 						"@type": "skos:Concept",
-						"name": "Ph Meter"
+						"name": "Qualité de l'eau - Détermination du pH. NF EN ISO 10523 / T90-418 (Mai 2012)"
 					}
             }
 	]
