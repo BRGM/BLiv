@@ -38,9 +38,9 @@
 						"@id": "http://id.eaufrance.fr/par/1340",
 						"@type": "skos:Concept",
 						"name": "Nitrates",
-						"sameAs": "https://chem.nlm.nih.gov/chemidplus/rn/14797-55-8",
-						"sameAs": "https://pubchem.ncbi.nlm.nih.gov/compound/943",
-						"sameAs": "http://purl.obolibrary.org/obo/CHEBI_17632"
+						"sameAs": ["https://chem.nlm.nih.gov/chemidplus/rn/14797-55-8",
+						 "https://pubchem.ncbi.nlm.nih.gov/compound/943",
+						 "http://purl.obolibrary.org/obo/CHEBI_17632"]
 					},
 					"resultTime": "2015-06-22T10:55:00.000Z",
 					"usedProcedure":  {
