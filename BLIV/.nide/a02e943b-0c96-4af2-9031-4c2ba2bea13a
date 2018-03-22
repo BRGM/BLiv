@@ -1,0 +1,8 @@
+{
+    "name": "RDFOpenlayers",
+    "description": "Show cities informations via SPARQL requests in an Openlayers map",
+    "version": "0.1.0",
+    "author": "Alexandre Da Silva",
+    "dependencies": {},
+    "devDependencies": {}
+}
