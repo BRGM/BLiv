@@ -692,7 +692,7 @@ opened=[];
 							$.ajax({
 							url: params.nodes[0],
 							dataType: 'json',
-							//async: false,
+							//async: false, 
 							success: function(data) {
 							document.getElementById("jsonld_text").value= JSON.stringify(data, null, "\t")},
 							});
